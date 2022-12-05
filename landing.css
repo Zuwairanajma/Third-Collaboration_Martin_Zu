@@ -1,12 +1,17 @@
 header {
-  position: fixed;
+  position: none;
   top: 0px;
-  width: 100%;
+  width: 50%;
   height: 19px;
   padding: 25px 0px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color : purple;
+  align-items: left;
+  background-color: rgb(228, 171, 228);
   opacity: 0.7;
+}
+body {
+  position: below;
+  background-color: rgb(253, 249, 249);
+  align-items: center;
 }
